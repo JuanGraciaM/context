@@ -14,15 +14,15 @@ export const ItemDetail = ({ data }) => {
 	};
 
 	return (
-		<div className="container">
+		<div className="container2">
 			<div className="detail">
 				<img className="detail__image" src={data.image} alt="" />
 				<div className="content">
-					<h1>{data.title}</h1>
+					<h1 className="titi">{data.title}</h1>
 					{goToCart ? (
 						<Link to="/cart"> Terminar al carrito</Link>
 					) : (
-						<ItemCount initial={3} stock={5} onAdd={onAdd} />
+						<ItemCount initial={1} stock={5} onAdd={onAdd} />
 					)}
 				</div>
 			</div>

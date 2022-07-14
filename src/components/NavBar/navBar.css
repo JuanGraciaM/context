@@ -1,0 +1,27 @@
+.container {
+    background-color: #000000;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1.5rem;
+}
+.container a {
+    margin: 1rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.container a:hover {
+    color: red;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav__list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}

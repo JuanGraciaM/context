@@ -1,7 +1,13 @@
 .counter {
-  width: fit-content;
-  background-color: gold;
+  background-color: black;
   margin: auto;
   padding: 1rem;
   text-align: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.toto {
+  margin: 1rem;
+  font-size: 1.5rem;
 }

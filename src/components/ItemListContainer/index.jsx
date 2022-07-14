@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "../ItemList";
 import Title from "../Title";
+import './ItemListContainer.css';
 
 const films = [
 	{

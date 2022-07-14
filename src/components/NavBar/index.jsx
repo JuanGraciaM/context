@@ -1,6 +1,7 @@
 import React from "react";
 import CartWidget from "../CartWidget";
 import { NavLink } from "react-router-dom";
+import './navBar.css';
 
 const NavBar = () => {
 	return (
@@ -8,7 +9,7 @@ const NavBar = () => {
 			<nav className="nav">
 				<div className="nav__brand">
 					<NavLink className="nav__link" to="/">
-						MiMarca
+						<i className="fa-solid fa-fire icon"></i>
 					</NavLink>
 				</div>
 				<ul className="nav__list">

@@ -1,10 +1,13 @@
-.container {
+.container2 {
+  background-color: black;
+  border: 10px solid rgb(80, 80, 80);
+  border-radius: 50px;
+  margin: 50px auto;
   width: 98%;
-  margin: auto;
 }
 
 @media screen and (min-width:768px) {
-  .container {
+  .container2 {
       width: 70%;
   }
 }
@@ -15,10 +18,19 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .detail__image {
   width: 100%;
+  margin: 1rem;
+  border: 10px solid rgb(80, 80, 80);
+  border-radius: 50px;
+}
+
+.titi {
+  text-align: center;
+  color: aliceblue;
 }
 
 .content {
